@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "galaxypearl",
+  "version": "${version}",
+  "name": "Galaxy Pearl",
+  "description": "Plays a space/galaxy animation when your ender pearl lands and you teleport.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.galaxypearl.GalaxyPearlClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
